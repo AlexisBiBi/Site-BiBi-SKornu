@@ -1,0 +1,81 @@
+@import "nav.css";
+@import url("section.css");
+
+@font-face {
+    font-family: "Sedgwick Ave Display";
+    src: url("/fonts/SedgwickAveDisplay-Regular.ttf") format("truetype");
+    
+}
+
+body{
+
+    font-weight: bold;
+    background-image: url(fond1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.header {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    width: 100%;
+    height: 50px;
+    
+
+}
+
+
+
+.lapage{
+
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+
+    background-image: url('fondeffetpapier.jpg');
+    background-size: contain;
+
+}
+.lelogo{
+
+    
+    background: none;
+    width: auto;
+    height: auto;
+}
+
+.labaniere {
+
+    justify-content: center;
+    border-top-style: double;
+    border-bottom-style: double;
+}
+
+
+
+
+
+h1{
+    color: green;
+}
+
+.footer {
+
+    background-color: green;
+
+    border: 3px solid rgb(160, 117, 0);
+    
+        width: auto;
+        height: 10px;
+
+}

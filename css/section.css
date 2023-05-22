@@ -1,0 +1,44 @@
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+
+    width: 100%;
+    height: auto;
+   
+
+    margin-top: 150px;
+    
+
+
+    border: 5px rgb(0, 131, 0) solid;
+
+    background-image: url(fondeffetpapier.jpg);
+}
+
+
+.section div{
+    margin: 0;
+
+    max-width: 1700px;
+    border : 3px red solid ;
+
+}
+
+.article1{
+
+
+}
+
+.article2{
+
+    width: 100%;
+}
+
+.article3{
+    width: 100%;
+}
